@@ -1,0 +1,46 @@
+<%- contentFor('Documentation : Header') %>
+<!-- 
+  This is the homepage
+ -->
+<%- contentFor("headCode") %>
+<title><%= title %></title>
+<!-- <link rel="stylesheet" href="/css/index.css" /> -->
+<script type="module" src="/js/home.js" defer></script>
+
+<%- contentFor("body") %>
+<!-- <h1>Welcome!</h1> -->
+
+<!--<section class="sctn_1">
+  <h3>Hello <span class="sctn_1-name">User</span>!</h3>
+  <hr />
+  <br />
+  <p>Welcome to this website.</p>
+  <s>
+    We are using this site just to develop and test features, we don't really
+    secure the database and the api because this is just for testing.
+  </s>
+  <br>
+  <strong>
+    this site is a modified version of the previous site we had,
+    This version should be 100% secure, but just in case it isn't as secure as we think (and because this is the internet) 
+    you should still keep sensitive information and/or content off this website!
+  </strong>
+  <p>Good luck and have fun!!</p>
+</section>-->
+
+<div class="sctn_1 posts">
+
+</div>
+
+<input type="text" name="post" class="postTarget" value="<%= postTarget %>" hidden/>
+
+<%
+/* 
+<cust-todoitem checked>
+  Todo 1
+  <span slot="description">small text</span>
+</cust-todoitem>
+<cust-todoitem>Todo 1</cust-todoitem>
+<cust-todoitem>Todo 1</cust-todoitem>
+*/
+%>
